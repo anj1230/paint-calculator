@@ -47,3 +47,25 @@ To make it easier on everybody, it's best if we use a PR to diff what work was c
 ## Running Tests
 
 Write instructions for how a user executes the automated tests you created.
+
+Prerequesties:
+
+Jre1.8 or below
+ChromeBrowser-version 50-64.- preferably 64
+Eclipse
+TestNg
+
+Once the application is up and running using steps 1-6 in the instructions
+
+Navigate to the project url
+Clone the repo
+Import the project folder PaintCalculatorAutomation from git to eclipse.
+Chromedriver is added inside the PaintCalculatorAutomation folder. Open the project and edit the chromeDriver path inside PaintCalculatorAutomation\src\TestCases\TestScript1.java, to your local path.
+Selenium drivers are inside seleniumDrivers folder. Add the jars in the build path.
+Configure the JRE system Library and TestNg library in the build path.
+RightClick on TestScript1-->Run As-->TestNgTest
+This should open the browser and start execution.
+Give it few seconds to complete the execution, once it is finished the results will be available in the Console window.
+Click on the Results of TestNG tab. It will display the total passed, failed and skipped test with time taken during the execution.
+ To access HTML reports reports go to the PaintCalculatorAutomation folder and open test-output folder.
+Open ‘emailable-report.html‘, with browser.This should open detailed report

@@ -1,0 +1,5 @@
+
+The automated tests are being written in Java using Selenium Webdriver and TestNg. Currently the code has been written to automate the UI provided in Chrome Browser.TestNg was used primarily with Selenium because of its flexibility as well as its ability to generate html and xml reports. 
+Currently the code has been developed as an end to end test scenario which covers validation of all the 3 pages.
+There are 3 test cases(methods) that cover each page validation and they have been configured to run one after the other. 
+Many different approaches are possible developing this application, such as developing different test script classes for each page so that each page validation can be done seperately if needed. I did not use that approach here as it will result in a lot of reduntant code and I felt end to end testing make more sense for the given application.
